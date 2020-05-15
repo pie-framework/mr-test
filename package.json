@@ -8,6 +8,7 @@
     "packages/*"
   ],
   "scripts": {
-    "postpublish": "scripts/postpublish"
+    "postpublish": "scripts/handler",
+    "prepublish": "scripts/handler"
   }
 }

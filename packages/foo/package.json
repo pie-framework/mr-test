@@ -1,11 +1,9 @@
 {
   "name": "@mr-test/foo",
-  "version": "1.5.3",
+  "version": "1.5.2",
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "postpublish": "../../scripts/postpublish"
-  },
+  "scripts": {},
   "gitHead": "6c45eb928fca999dd5b90cc1cbf0ca8772f9f9d3"
 }
