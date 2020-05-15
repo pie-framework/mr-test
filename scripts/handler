@@ -8,7 +8,9 @@ const args = process.env["npm_config_argv"];
 const event = process.env["npm_lifecycle_event"];
 console.log("[handler ] --> ", event, pkg, version, tag, args);
 
-if(event === 'prepublish') {
-  const pkg = fs.readJsonSync( resolve(__dirname, "../packages/foo/package.json");
-  console.log('pkg.version:', pkg.version)
+if (event === "prepublish") {
+  const pkg = fs.readJsonSync(
+    resolve(__dirname, "../packages/foo/package.json")
+  );
+  console.log("pkg.version:", pkg.version);
 }
