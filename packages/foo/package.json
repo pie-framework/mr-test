@@ -5,7 +5,7 @@
     "access": "public"
   },
   "scripts": {
-    "postpublish": "scripts/postpublish"
+    "postpublish": "../scripts/postpublish"
   },
   "gitHead": "4aee672de500475c83ff8679aa3c5daa78a9385c"
 }
