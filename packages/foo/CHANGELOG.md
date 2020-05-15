@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.5](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.5.4...@mr-test/foo@1.5.5) (2020-05-15)
+
+
+### Bug Fixes
+
+* five ([f31c884](https://github.com/pie-framework/mr-test/commit/f31c884a78e8fdc296520d1e3783f9cc72f01cae))
+
+
+
+
+
 ## [1.5.4](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.5.3...@mr-test/foo@1.5.4) (2020-05-15)
 
 
