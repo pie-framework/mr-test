@@ -1,0 +1,7 @@
+{
+  "name": "@mr-test/bar",
+  "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  }
+}
