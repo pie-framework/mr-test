@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.2.0...@mr-test/foo@1.3.0) (2020-05-15)
+
+
+### Features
+
+* chmod +x ([269c439](https://github.com/pie-framework/mr-test/commit/269c439563e6c7f4349bbcf411d609e5a0fb50ee))
+
+
+
+
+
 # [1.2.0](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.1.0...@mr-test/foo@1.2.0) (2020-05-15)
 
 
