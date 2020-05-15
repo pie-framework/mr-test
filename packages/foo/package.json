@@ -6,5 +6,6 @@
   },
   "scripts": {
     "postpublish": "scripts/postpublish"
-  }
+  },
+  "gitHead": "f15d68265536b6e0a1047f03e60b33b2d5fd3053"
 }
