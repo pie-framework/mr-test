@@ -8,9 +8,38 @@ const args = process.env["npm_config_argv"];
 const event = process.env["npm_lifecycle_event"];
 console.log("!!!! [handler ] --> ", event, pkg, version, tag, args);
 
-if (event === "prepublish") {
-  const pkg = fs.readJsonSync(
-    resolve(__dirname, "../packages/foo/package.json")
-  );
-  console.log("pkg.version:", pkg.version);
+const { handlers } = require("@pie-framework/build-helpers");
+
+// const postpublish = () => {
+//   if (tag === "latest") {
+//     // parse the changelog from version => version-1
+//     // send info to jira
+//   } else if (tag === "next") {
+//     // parse the git log from HEAD => ??
+//     // send info to jira
+//   } else {
+//     console.log("ignore tag: ", tag);
+//   }
+// };
+
+// const handlers = {
+//   postpublish,
+// };
+
+const opts = Object.keys(process.env)
+  .filter((k) => k.startsWith("npm_"))
+  .reduce((acc, k) => {
+    acc[k] = process.env[k];
+    return acc;
+  }, {});
+
+if (handlers[event]) {
+  handlers[event](path.resolve(__dirname, ".."), opts);
 }
+// if (event === "postpublish") {
+
+//   const pkg = fs.readJsonSync(
+//     resolve(__dirname, "../packages/foo/package.json")
+//   );
+//   console.log("pkg.version:", pkg.version);
+// }
