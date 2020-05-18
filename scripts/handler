@@ -31,8 +31,8 @@ if (!filtered.JIRA_AUTH_TOKEN) {
 }
 
 const run = async () => {
-  if (handlers[event]) {
-    const result = await handlers[event](
+  if (event === "postpublish") {
+    const result = await publishFixToJira(
       path.resolve(__dirname, ".."),
       {
         projectPrefixes: ["JAT"],
