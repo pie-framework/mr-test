@@ -39,6 +39,7 @@ const run = async () => {
         host: "illuminate.atlassian.net",
         apiToken: filtered.JIRA_AUTH_TOKEN,
         email: filtered.JIRA_EMAIL,
+        projectId: "JAT",
       },
       filtered
     );
