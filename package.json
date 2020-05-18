@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "postpublish": "scripts/handler",
-    "prepublish": "scripts/handler"
+    "prepublish": "scripts/handler",
+    "prepare": "scripts/handler"
   }
 }
