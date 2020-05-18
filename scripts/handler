@@ -26,20 +26,33 @@ const filtered = Object.keys(args)
 
 const event = filtered.npm_lifecycle_event;
 
+if (!filtered.JIRA_AUTH_TOKEN) {
+  throw new Error("no jira auth token");
+}
+
 const run = async () => {
   if (handlers[event]) {
     const result = await handlers[event](
       path.resolve(__dirname, ".."),
       {
-        projectPrefixes: ["PD"],
-        host: "foo.atlassian.com",
-        authToken: "foo_token",
+        projectPrefixes: ["JAT"],
+        host: "illuminate.atlassian.net",
+        authToken: filtered.JIRA_AUTH_TOKEN,
       },
       filtered
     );
     return result;
   }
 };
+
+/*
+projectId: 13788,
+released: true,
+releaseDate: true,
+releaseNameTemplate: "pie player v${version}",
+jiraHost: "illuminate.atlassian.net",
+ticketPrefixes: ["PD"]
+*/
 
 run()
   .then(() => console.log("done"))
