@@ -16,7 +16,7 @@ const cliArgs = minimist(process.argv.slice(2));
 const args = { ...process.env, ...cliArgs };
 
 const filtered = Object.keys(args)
-  .filter((k) => k.startsWith("npm_") || k === "JIRA_AUTH_TOKEN")
+  .filter((k) => k.startsWith("npm_") || k.startsWith("JIRA_"))
   .reduce((acc, k) => {
     acc[k] = args[k];
     return acc;
@@ -37,7 +37,8 @@ const run = async () => {
       {
         projectPrefixes: ["JAT"],
         host: "illuminate.atlassian.net",
-        authToken: filtered.JIRA_AUTH_TOKEN,
+        apiToken: filtered.JIRA_AUTH_TOKEN,
+        email: filtered.JIRA_EMAIL,
       },
       filtered
     );
