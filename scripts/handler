@@ -12,6 +12,8 @@ const path = require("path");
 
 const { handlers } = require("@pie-framework/build-helper");
 
+const { publishFixToJira } = handlers;
+
 const cliArgs = minimist(process.argv.slice(2));
 const args = { ...process.env, ...cliArgs };
 
