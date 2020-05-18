@@ -4,6 +4,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {},
+  "scripts": {
+    "postpublish": "../../scripts/handler"
+  },
   "gitHead": "ebee6efa8774872582c007ccf04827bbd61c66f1"
 }

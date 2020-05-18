@@ -8,9 +8,5 @@
   "workspaces": [
     "packages/*"
   ],
-  "scripts": {
-    "postpublish": "scripts/handler",
-    "prepublish": "scripts/handler",
-    "prepare": "scripts/handler"
-  }
+  "scripts": {}
 }
