@@ -16,7 +16,7 @@ const cliArgs = minimist(process.argv.slice(2));
 const args = { ...process.env, ...cliArgs };
 
 const filtered = Object.keys(args)
-  .filter((k) => k.startsWith("npm_"))
+  .filter((k) => k.startsWith("npm_") || k === "JIRA_AUTH_TOKEN")
   .reduce((acc, k) => {
     acc[k] = args[k];
     return acc;
