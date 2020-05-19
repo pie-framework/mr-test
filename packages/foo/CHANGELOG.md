@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.5.12...@mr-test/foo@1.6.0) (2020-05-19)
+
+
+### Bug Fixes
+
+* JAT-1 ([41c0938](https://github.com/pie-framework/mr-test/commit/41c09382b827bbdd6982e750da2170cdf1444e61))
+* JAT-1 should be next fv ([22028d7](https://github.com/pie-framework/mr-test/commit/22028d7c9e2f76fc478bae98b7f71f3c1f03b2cd))
+* JAT-1 should be next fv 2 ([820506f](https://github.com/pie-framework/mr-test/commit/820506f3e3bcd9660282dd50f5ad64868c6fd967))
+* JAT-1 should be next fv 3 ([add86cd](https://github.com/pie-framework/mr-test/commit/add86cd335e5b3f45af2795ce861fa0e947efbe1))
+* JAT-3 ([a136af4](https://github.com/pie-framework/mr-test/commit/a136af4207444ab9d6094e2d165a7c96c8f7ec91))
+* JAT-3 again ([261464b](https://github.com/pie-framework/mr-test/commit/261464b88c19f00a9afe6a6510a750e94d600e0b))
+* JAT-3 again 2 ([cc3f622](https://github.com/pie-framework/mr-test/commit/cc3f622d723c22186715e1b9334a556fa7626806))
+* JAT-4 JAT-5 ([125d8f2](https://github.com/pie-framework/mr-test/commit/125d8f283a94542efa92211bc3c3ca0cd253856d))
+
+
+### Features
+
+* JAT-2 JAT-3 ([0d540b2](https://github.com/pie-framework/mr-test/commit/0d540b24addb91dc5eccdcba83c22e1804ed3d01))
+
+
+
+
+
 ## [1.5.12](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.5.11...@mr-test/foo@1.5.12) (2020-05-18)
 
 
