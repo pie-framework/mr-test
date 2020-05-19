@@ -7,5 +7,5 @@
   "scripts": {
     "postpublish": "../../scripts/handler"
   },
-  "gitHead": "6ef126e648e3642d0d0359275ba1345697c15d49"
+  "gitHead": "b4fc2e5079d32c36d7f063618f479e08f097fb2f"
 }
