@@ -58,7 +58,7 @@ jiraHost: "illuminate.atlassian.net",
 ticketPrefixes: ["PD"]
 */
 
-run(e
+run()
   .then(() => {
     console.log("done");
     process.exit(0);
