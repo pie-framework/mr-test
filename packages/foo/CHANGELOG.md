@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.7.0...@mr-test/foo@1.8.0) (2020-05-19)
+
+
+### Features
+
+* JAT-1 JAT-2 ([91e3a57](https://github.com/pie-framework/mr-test/commit/91e3a57f32516b12793c9f6ad60c36418da1b305))
+
+
+
+
+
 # [1.7.0](https://github.com/pie-framework/mr-test/compare/@mr-test/foo@1.6.0...@mr-test/foo@1.7.0) (2020-05-19)
 
 
