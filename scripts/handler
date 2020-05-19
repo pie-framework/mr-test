@@ -39,7 +39,7 @@ const run = async () => {
       {
         projectPrefixes: ["JAT"],
         host: "illuminate.atlassian.net",
-        apiToken: filtered.JIRA_AUTH_TOKEN,
+        base64Auth: filtered.JIRA_AUTH_TOKEN,
         email: filtered.JIRA_EMAIL,
         projectId: "JAT",
       },
@@ -58,9 +58,15 @@ jiraHost: "illuminate.atlassian.net",
 ticketPrefixes: ["PD"]
 */
 
-run()
-  .then(() => console.log("done"))
-  .catch((e) => console.error(e));
+run(e
+  .then(() => {
+    console.log("done");
+    process.exit(0);
+  })
+  .catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
 // if (event === "postpublish") {
 
 //   const pkg = fs.readJsonSync(
